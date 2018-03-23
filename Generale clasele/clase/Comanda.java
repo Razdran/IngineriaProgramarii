@@ -1,4 +1,6 @@
-import java.util.Vector;
+package clase;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Comanda {
 
@@ -6,24 +8,23 @@ public class Comanda {
 
   private String status;
 
-  private List<String> continut;
+  private List<String> continut = new ArrayList<String>();
 
-    public Vector  myIstoric;
-    public Vector  myIstoric;
 
   public Integer get_id() {
-  return null;
+  return id_comanda;
   }
 
   public String get_status() {
-  return null;
+  return status;
   }
 
   public List<String> get_continut() {
-  return null;
+  return continut;
   }
 
   public void set_id(Integer id) {
+	  this.id_comanda=id;
   }
 
 }
