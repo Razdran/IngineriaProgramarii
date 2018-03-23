@@ -1,19 +1,25 @@
 package clase;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 public class Istoric {
 
-  public Istoric Instanta;
-  public List<Comanada> comenzi = new ArrayList<Comanada>();
+  private static Istoric Instanta;
+  private static List<Comanda> comenzi;
+  private Istoric() {
+	  comenzi = new ArrayList<Comanda>();
 
-  private void Istoric() {
   }
-
+  public static Istoric getInstance(){
+	  if(Instanta == null)
+		  Instanta = new Istoric();
+	  return Instanta;
+  }
   public List<Comanda> getIstoric(Integer id_utilizat) {
-	  
   return comenzi;
   }
+  public void setComanda(Comanda comanda){
+	  comenzi.add(comanda);
+	  }
 
 }
