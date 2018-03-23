@@ -23,16 +23,24 @@ private static int count =0;
   public String get_status() {
   return statusCurent;
   }
-
+  public void setContinut(String str){
+	  continut.add(str);
+	  
+  }
   public List<String> get_continut() {
   return continut;
-  }
+  } 
 
   public void set_id(Integer id) {
 	  this.id_comanda=id;
   }
   public void setStatus(){
 	  statusCurent=status[(int)(Math.random()*10)/2];
+  }
+  public void afiseazaIstoric(){
+	  for(String i : continut){
+		  System.out.println(i + " ");
+	  }
 	  System.out.println(statusCurent);
   }
 
