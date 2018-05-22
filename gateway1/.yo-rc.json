@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.gateway",
+      "microservicePath": "C:\\Users\\martf\\Documents\\GitHub\\IngineriaProgramarii\\payment.new"
+    },
+    "jhipsterVersion": "4.14.3",
+    "baseName": "gateway",
+    "packageName": "com.gateway",
+    "packageFolder": "com/gateway",
+    "serverPort": "8070",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "38a51e249b213b17038e8ef255a550207e907a42",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "gateway",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}
