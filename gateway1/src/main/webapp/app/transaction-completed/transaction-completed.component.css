@@ -1,0 +1,27 @@
+.text-center{
+    margin: 50px;
+}
+.bill{
+    background-color: beige;
+}
+.userData{
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+}
+.flightData{
+    text-align: left;
+    padding-left: 20px;
+    float: left;
+    border-left: none;
+}
+h3{
+    margin-top: 20px;
+}
+.paymentData{
+    text-align: left;
+    padding-left: 20px;
+    float: left;
+    border-left: none;
+
+}

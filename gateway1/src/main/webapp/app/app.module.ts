@@ -26,6 +26,7 @@ import {
     PageRibbonComponent,
     ErrorComponent
 } from './layouts';
+import { TransactionPageModule } from './transaction-completed';
 
 @NgModule({
     imports: [
@@ -37,6 +38,7 @@ import {
         GatewayAdminModule,
         GatewayAccountModule,
         GatewayEntityModule,
+        TransactionPageModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [

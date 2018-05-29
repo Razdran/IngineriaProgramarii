@@ -1,0 +1,37 @@
+<div class="container">
+    <h2 class="display-4 noselect text-center">{{ getText.title }}</h2>
+    <div class="bill col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-4 col-sm-12 col-xs-12 userData">
+                <h3>User Data</h3>
+            <div>First name: {{user.name}} </div>
+            <div>Last Name: {{user.prenume}} </div>
+            <div>CNP: {{user.cnp}} </div>
+            <div>Address: {{user.adress}} </div>
+            <div>Date of birth: {{user.dateOfBirth}} </div>
+            <div>Phone number: {{user.phoneNumber}} </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 flightData">
+            <h3>Flight Data</h3>
+            <div>Total Price: {{totalPrice}}</div>
+            <div>Departure: {{flight.departure}}</div>
+            <div>Arrival: {{flight.arrival}}</div>
+            <div>Plane type: {{flight.planeType}}</div>
+            <div>flightId: {{flight.id}}</div>
+            <div>Departure time: {{flight.departureTime}}</div>
+            <div>Arrival time: {{flight.arrivalTime}}</div>
+            <div>Company: {{flight.company}}</div>
+            <div>price rang max: {{flight.priceRangeMax}}</div>
+
+        </div>
+
+        <div class="paymentData col-md-4">
+                <h3>Payment Data</h3>
+                <div>Number: {{getText.information.number}}</div>
+                <div>Expiration: {{getText.information.exp}}</div>
+                <div>CVV: {{getText.information.cvv}}</div>
+                <div>Ceva->{{flight[2]}}</div>
+        </div>
+
+
+    </div>
+</div>
